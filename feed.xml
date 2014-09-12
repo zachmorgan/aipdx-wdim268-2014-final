@@ -4,10 +4,10 @@
     <title>WDIM 268 Final Project</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://zachmorgan.github.io/aipdx-wdim269-2014-final//</link>
-    <atom:link href="http://zachmorgan.github.io/aipdx-wdim269-2014-final//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Sep 2014 18:17:55 -0700</pubDate>
-    <lastBuildDate>Thu, 11 Sep 2014 18:17:55 -0700</lastBuildDate>
+    <link>http://zachmorgan.github.io/aipdx-wdim268-2014-final//</link>
+    <atom:link href="http://zachmorgan.github.io/aipdx-wdim268-2014-final//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 11 Sep 2014 18:25:07 -0700</pubDate>
+    <lastBuildDate>Thu, 11 Sep 2014 18:25:07 -0700</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 04 Sep 2014 12:19:45 -0700</pubDate>
-        <link>http://zachmorgan.github.io/aipdx-wdim269-2014-final//jekyll/update/2014/09/04/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://zachmorgan.github.io/aipdx-wdim269-2014-final//jekyll/update/2014/09/04/welcome-to-jekyll.html</guid>
+        <link>http://zachmorgan.github.io/aipdx-wdim268-2014-final//jekyll/update/2014/09/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://zachmorgan.github.io/aipdx-wdim268-2014-final//jekyll/update/2014/09/04/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
