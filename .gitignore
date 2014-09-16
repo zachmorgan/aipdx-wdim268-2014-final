@@ -2,5 +2,7 @@
 .DS_Store
 
 #SASS
-
 .sass-cache/*
+
+#JEKYLL
+_site/*
