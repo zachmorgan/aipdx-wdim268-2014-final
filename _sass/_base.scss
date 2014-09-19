@@ -82,7 +82,7 @@ header {
   
   .nav-list {
     
-    .nav-item {
+    .nav-item a{
       display: inline-block;
       padding: 5.5px 11px;
       vertical-align: middle;
@@ -151,10 +151,12 @@ header {
 /* CENTER CONTENT */
 .hero-box {
   @include background(radial-gradient(#36c2e3, #1d68a4) top repeat);
+  padding: 10px 0;
 }
 
 .main-content {
   @include background(linear-gradient(#d3d3d2, #fff) top repeat);
+  padding: 10px 0;
 }
 
 

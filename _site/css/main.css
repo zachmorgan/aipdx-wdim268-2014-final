@@ -74,14 +74,14 @@ header {
   font-size: 1em;
   text-transform: uppercase;
   color: #848484; }
-  .main-nav .nav-list .nav-item {
+  .main-nav .nav-list .nav-item a {
     display: inline-block;
     padding: 5.5px 11px;
     vertical-align: middle;
     list-style: none;
     text-decoration: none;
     color: #848484; }
-    .main-nav .nav-list .nav-item:hover {
+    .main-nav .nav-list .nav-item a:hover {
       border-top: 1px solid #28b0d2;
       background: #1f7bc1;
       background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#1f7bc1));
@@ -135,11 +135,13 @@ header {
 /* CENTER CONTENT */
 .hero-box {
   background: -webkit-radial-gradient(#36c2e3, #1d68a4) top repeat;
-  background: radial-gradient(#36c2e3, #1d68a4) top repeat; }
+  background: radial-gradient(#36c2e3, #1d68a4) top repeat;
+  padding: 10px 0; }
 
 .main-content {
   background: -webkit-linear-gradient(#d3d3d2, #fff) top repeat;
-  background: linear-gradient(#d3d3d2, #fff) top repeat; }
+  background: linear-gradient(#d3d3d2, #fff) top repeat;
+  padding: 10px 0; }
 
 /* FOOTER */
 footer {
