@@ -71,15 +71,16 @@ header {
 
 .main-nav {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   text-transform: uppercase;
   color: #848484; }
   .main-nav .nav-list .nav-item {
-    text-decoration: none;
+    display: inline-block;
     padding: 5.5px 11px;
     vertical-align: middle;
-    display: inline-block;
-    list-style: none; }
+    list-style: none;
+    text-decoration: none;
+    color: #848484; }
     .main-nav .nav-list .nav-item:hover {
       border-top: 1px solid #28b0d2;
       background: #1f7bc1;
@@ -95,9 +96,10 @@ header {
       -moz-box-shadow: black 0 1px 0;
       box-shadow: black 0 1px 0;
       text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
-      color: #ffffff;
-      font-size: 14px;
-      text-decoration: none; }
+      color: #ffffff; }
+
+.login {
+  float: right; }
 
 .sign-up {
   border-top: 1px solid #28b0d2;
