@@ -89,3 +89,19 @@ header {
   border-top-color: #1b435e;
   background: #1b435e;
 }
+
+
+/* CENTER CONTENT */
+.hero-box {
+  @include background(linear-gradient(red, green) left repeat, radial-gradient(red, orange) left repeat);
+}
+
+.main-content {
+  @include background(linear-gradient(#d3d3d2, #fff) top repeat);
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #4b4d4a;
+}

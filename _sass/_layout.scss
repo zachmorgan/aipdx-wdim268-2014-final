@@ -1,7 +1,10 @@
 /* Column System */
 
-.wrapper {
+.frame {
   @include outer-container;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
   
   .row {
     @include row();
