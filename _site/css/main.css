@@ -56,7 +56,28 @@ table {
 
 /* HEADER */
 header {
-  background-color: #dddddd; }
+  background: -webkit-linear-gradient(#dedede, #e4e4e3) top repeat;
+  background: linear-gradient(#dedede, #e4e4e3) top repeat; }
+
+.header-box {
+  border-bottom: 1px solid #b3b3b3;
+  padding: 10px 0; }
+
+.site-title h1 {
+  font-family: "Fertigo Pro", Helvetica, sans-serif;
+  font-size: 4em; }
+.site-title img {
+  float: right; }
+
+.main-nav {
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #848484; }
+  .main-nav .nav-list {
+    text-decoration: none; }
+    .main-nav .nav-list .nav-item {
+      padding: 5.5px 11px; }
 
 .sign-up {
   border-top: 1px solid #28b0d2;

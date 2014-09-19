@@ -55,7 +55,38 @@ table {
 
 /* HEADER */
 header {
-  background-color: #dddddd;
+  @include background(linear-gradient(#dedede, #e4e4e3) top repeat);
+}
+.header-box {
+  border-bottom: 1px solid #b3b3b3;
+  padding: 10px 0;
+}
+
+.site-title {
+  
+  h1 {
+    font-family: "Fertigo Pro", Helvetica, sans-serif;
+    font-size: 4em;
+  }
+  
+  img {
+    float: right;
+  }
+}
+
+.main-nav {
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #848484;
+  
+  .nav-list {
+    text-decoration: none;
+    
+    .nav-item {
+      padding: 5.5px 11px;
+    }
+  }
 }
 
 .sign-up {
