@@ -91,8 +91,8 @@ header {
 
 /* CENTER CONTENT */
 .hero-box {
-  background: -webkit-linear-gradient(red, green) left repeat, -webkit-radial-gradient(red, orange) left repeat;
-  background: linear-gradient(red, green) left repeat, radial-gradient(red, orange) left repeat; }
+  background: -webkit-radial-gradient(#36c2e3, #1d68a4) top repeat;
+  background: radial-gradient(#36c2e3, #1d68a4) top repeat; }
 
 .main-content {
   background: -webkit-linear-gradient(#d3d3d2, #fff) top repeat;

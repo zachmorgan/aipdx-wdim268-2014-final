@@ -93,7 +93,7 @@ header {
 
 /* CENTER CONTENT */
 .hero-box {
-  @include background(linear-gradient(red, green) left repeat, radial-gradient(red, orange) left repeat);
+  @include background(radial-gradient(#36c2e3, #1d68a4) top repeat);
 }
 
 .main-content {
