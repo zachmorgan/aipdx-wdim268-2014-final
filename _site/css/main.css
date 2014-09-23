@@ -21,8 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
   outline: 0;
   font-size: 100%;
-  vertical-align: baseline;
-  background: transparent; }
+  vertical-align: baseline; }
 
 body {
   line-height: 1; }
@@ -60,6 +59,10 @@ table {
   src: url("../font/Fertigo_PRO-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Fertigo_PRO-webfont.woff2") format("woff2"), url("../font/Fertigo_PRO-webfont.woff") format("woff"), url("../font/Fertigo_PRO-webfont.ttf") format("truetype"), url("../font/Fertigo_PRO-webfont.svg#fertigo_proregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+p {
+  font-family: Arial, sans-serif;
+  font-size: 1em; }
+
 /* HEADER */
 header {
   background: -webkit-linear-gradient(#dedede, #e4e4e3) top repeat;
@@ -157,7 +160,11 @@ header {
 .hero-box {
   background: -webkit-radial-gradient(#36c2e3, #1d68a4) top repeat;
   background: radial-gradient(#36c2e3, #1d68a4) top repeat;
-  padding: 10px 0; }
+  padding: 15px 0;
+  color: #fff; }
+  .hero-box h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4em; }
 
 .main-content {
   background: -webkit-linear-gradient(#d3d3d2, #fff) top repeat;
